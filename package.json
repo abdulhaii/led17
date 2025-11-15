@@ -1,0 +1,9 @@
+{
+  "name": "esp32-led-firebase",
+  "version": "1.0.0",
+  "description": "LED control via Firebase + Vercel",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.x"
+  }
+}
