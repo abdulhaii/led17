@@ -1,6 +1,6 @@
 // =============== Firebase + Vercel ===============
 const FB_URL = "https://led2-a60fb-default-rtdb.firebaseio.com";
-const VERCEL_API_UPDATE = "https://led17.vercel.app/api/update-status";
+const VERCEL_API_UPDATE = "https://led17-d8nx1d016-abdulhaieljabry-gmailcoms-projects.vercel.app//api/update-status";
 
 let currentStatus = { led1: 'OFF', led2: 'OFF' };
 let isUpdating  = false;
@@ -138,4 +138,5 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('offline', handleOffline);
   window.addEventListener('beforeunload', stopAutoUpdate);
 });
+
 
